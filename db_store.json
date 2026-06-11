@@ -1,0 +1,639 @@
+{
+  "users": [
+    {
+      "id": "user_alex_g",
+      "auth0Id": "auth0|alexg_hincha",
+      "nombre_completo": "Alex G.",
+      "foto_perfil": "/src/assets/images/regenerated_image_1781135961683.png",
+      "nacionalidades": [
+        "ES",
+        "AR"
+      ],
+      "genero": "Masculino",
+      "rango_edad": "25-34",
+      "clubes_favoritos": [
+        "real_madrid",
+        "man_city",
+        "ac_milan",
+        "dortmund",
+        "river_plate"
+      ],
+      "dashboard": {
+        "debates_emitidos_partidos": 14,
+        "debates_emitidos_premios": 4,
+        "debates_emitidos_contexto": 8
+      }
+    },
+    {
+      "id": "user_lucia_m",
+      "auth0Id": "auth0|luciam_hincha",
+      "nombre_completo": "Lucía M.",
+      "foto_perfil": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "nacionalidades": [
+        "BR"
+      ],
+      "genero": "Femenino",
+      "rango_edad": "18-24",
+      "clubes_favoritos": [
+        "flamengo",
+        "barcelona_sc",
+        "real_madrid"
+      ],
+      "dashboard": {
+        "debates_emitidos_partidos": 8,
+        "debates_emitidos_premios": 6,
+        "debates_emitidos_contexto": 10
+      }
+    },
+    {
+      "id": "user_john_d",
+      "auth0Id": "auth0|johnd_hincha",
+      "nombre_completo": "John D. (Gales)",
+      "foto_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "nacionalidades": [
+        "GB-WLS"
+      ],
+      "genero": "No binario",
+      "rango_edad": "35-44",
+      "clubes_favoritos": [
+        "man_united",
+        "seattle_sounders"
+      ],
+      "dashboard": {
+        "debates_emitidos_partidos": 3,
+        "debates_emitidos_premios": 2,
+        "debates_emitidos_contexto": 1
+      }
+    },
+    {
+      "id": "visitor",
+      "auth0Id": "auth0|visitor_anonymous",
+      "nombre_completo": "Hincha Anónimo (Namibia)",
+      "foto_perfil": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "nacionalidades": [
+        "NA"
+      ],
+      "genero": "Prefiero no decirlo",
+      "rango_edad": "45+",
+      "clubes_favoritos": [],
+      "dashboard": {
+        "debates_emitidos_partidos": 0,
+        "debates_emitidos_premios": 0,
+        "debates_emitidos_contexto": 0
+      }
+    }
+  ],
+  "matches": [
+    {
+      "id": "match_1",
+      "api_match_id": "api_cl_rm_mc",
+      "club_1": "Real Madrid CF",
+      "club_2": "Manchester City FC",
+      "torneo_nombre": "Champions League",
+      "fecha_inicio": "2026-06-11T02:43:30.162Z",
+      "estado_tarjeta": "Active",
+      "match_status": "Finished",
+      "score_home": 2,
+      "score_away": 1,
+      "minute": 78
+    },
+    {
+      "id": "match_2",
+      "api_match_id": "api_pl_liv_ars",
+      "club_1": "Liverpool FC",
+      "club_2": "Arsenal FC",
+      "torneo_nombre": "Premier League",
+      "fecha_inicio": "2026-06-11T07:13:30.162Z",
+      "estado_tarjeta": "Active",
+      "match_status": "Not_Started"
+    },
+    {
+      "id": "match_3",
+      "api_match_id": "api_l1_psg_om",
+      "club_1": "Paris Saint-Germain FC",
+      "club_2": "Olympique de Marseille",
+      "torneo_nombre": "Ligue 1",
+      "fecha_inicio": "2026-06-10T23:13:30.162Z",
+      "estado_tarjeta": "Active",
+      "match_status": "Finished",
+      "score_home": 0,
+      "score_away": 0
+    },
+    {
+      "id": "match_grey_1",
+      "api_match_id": "api_laliga_get_leg",
+      "club_1": "Getafe CF",
+      "club_2": "CD Leganés",
+      "torneo_nombre": "LaLiga",
+      "fecha_inicio": "2026-06-12T00:13:30.162Z",
+      "estado_tarjeta": "Pending",
+      "match_status": "Not_Started"
+    },
+    {
+      "id": "match_grey_2",
+      "api_match_id": "api_seriea_emp_sas",
+      "club_1": "Empoli FC",
+      "club_2": "US Sassuolo Calcio",
+      "torneo_nombre": "Serie A",
+      "fecha_inicio": "2026-06-13T04:13:30.162Z",
+      "estado_tarjeta": "Pending",
+      "match_status": "Not_Started"
+    }
+  ],
+  "votes": [
+    {
+      "id": "vote_seed_1",
+      "user_id": "user_alex_g",
+      "question_id": "q_mc_rm_2",
+      "alternativa_id": "alt_mc_2_1"
+    },
+    {
+      "id": "vote_seed_2",
+      "user_id": "user_alex_g",
+      "question_id": "q_aw_wc_1",
+      "alternativa_id": "alt_aw_wc1_2"
+    },
+    {
+      "id": "vote_1781151236990_44wja",
+      "user_id": "user_alex_g",
+      "question_id": "q_sim_1781151222764",
+      "alternativa_id": "alt_m3_1781151222764"
+    },
+    {
+      "id": "vote_1781151241699_tyrwp",
+      "user_id": "user_alex_g",
+      "question_id": "q_sim_1781151225074",
+      "alternativa_id": "alt_f2_1781151225074"
+    }
+  ],
+  "awards": [
+    {
+      "id": "award_wc",
+      "torneo_nombre": "World Cup 2026",
+      "logo_url": "🏆",
+      "fecha_inicio": "2026-06-01",
+      "fecha_fin": "2026-07-01",
+      "fans": 1234567,
+      "debatesCount": 5
+    },
+    {
+      "id": "award_dor",
+      "torneo_nombre": "Ballon d'Or Ceremony 2026",
+      "logo_url": "⚽",
+      "fecha_inicio": "2026-10-26",
+      "fecha_fin": "2026-10-27",
+      "fans": 1009292,
+      "debatesCount": 10
+    },
+    {
+      "id": "award_ucl",
+      "torneo_nombre": "Champions League 2025–26",
+      "logo_url": "⭐️",
+      "fecha_inicio": "2025-09-15",
+      "fecha_fin": "2026-06-01",
+      "fans": 2845012,
+      "debatesCount": 6
+    },
+    {
+      "id": "award_wwc",
+      "torneo_nombre": "Women's World Cup 2027",
+      "logo_url": "🏃‍♀️",
+      "fecha_inicio": "2027-09-01",
+      "fecha_fin": "2027-09-30",
+      "fans": 156402,
+      "debatesCount": 4
+    }
+  ],
+  "contexts": [
+    {
+      "id": "ctx_global",
+      "nombre_region": "GLOBAL",
+      "countryCode": "GLOBAL",
+      "bandera_url": "🌍",
+      "estado_activo": true,
+      "fans": 1201349,
+      "debatesCount": 10,
+      "leagueName": "Football | Worldwide"
+    },
+    {
+      "id": "ctx_spain",
+      "nombre_region": "España",
+      "countryCode": "ES",
+      "bandera_url": "🇪🇸",
+      "estado_activo": true,
+      "fans": 800901,
+      "debatesCount": 15,
+      "leagueName": "LaLiga | 20 Clubs"
+    },
+    {
+      "id": "ctx_england",
+      "nombre_region": "Inglaterra",
+      "countryCode": "GB-ENG",
+      "bandera_url": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "estado_activo": true,
+      "fans": 55762902,
+      "debatesCount": 12,
+      "leagueName": "Premier League | 20 Clubs"
+    },
+    {
+      "id": "ctx_brazil",
+      "nombre_region": "Brasil",
+      "countryCode": "BR",
+      "bandera_url": "🇧🇷",
+      "estado_activo": true,
+      "fans": 2981401,
+      "debatesCount": 12,
+      "leagueName": "Brasileirão | 20 Clubs"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_mc_rm_2",
+      "contenedor_id": "match_1",
+      "modelo_contenedor": "Match",
+      "modulo_origen": "Matchs",
+      "texto_pregunta": {
+        "es": "[Minuto 60] ¿Penal bien cobrado para el Real Madrid?",
+        "en": "[Minute 60] Was that a well-taken penalty for Real Madrid?",
+        "pt": "[Minuto 60] Pênalti bem marcado para o Real Madrid?"
+      },
+      "estado_pregunta": "Finished",
+      "tipo_origen": "Automatic_API",
+      "alternativas": [
+        {
+          "id": "alt_mc_2_1",
+          "texto": {
+            "es": "Sí, definitivamente",
+            "en": "Yes, definitely",
+            "pt": "Sim, com certeza"
+          },
+          "votos": 5100
+        },
+        {
+          "id": "alt_mc_2_2",
+          "texto": {
+            "es": "Difícil decir",
+            "en": "Hard to say",
+            "pt": "Difícil dizer"
+          },
+          "votos": 800
+        },
+        {
+          "id": "alt_mc_2_3",
+          "texto": {
+            "es": "No, para nada",
+            "en": "No, not at all",
+            "pt": "Não, de jeito nenhum"
+          },
+          "votos": 1200
+        }
+      ]
+    },
+    {
+      "id": "q_mc_rm_3",
+      "contenedor_id": "match_1",
+      "modelo_contenedor": "Match",
+      "modulo_origen": "Matchs",
+      "texto_pregunta": {
+        "es": "¿Quién ganará en los 90 minutos?",
+        "en": "Who will win in 90 minutes?",
+        "pt": "Quem vencerá nos 90 minutos?"
+      },
+      "estado_pregunta": "Upcoming_Readonly",
+      "tipo_origen": "Automatic_API",
+      "alternativas": [
+        {
+          "id": "alt_mc_3_1",
+          "texto": {
+            "es": "Real Madrid CF",
+            "en": "Real Madrid CF",
+            "pt": "Real Madrid CF"
+          },
+          "votos": 12000
+        },
+        {
+          "id": "alt_mc_3_2",
+          "texto": {
+            "es": "Empate",
+            "en": "Draw",
+            "pt": "Empate"
+          },
+          "votos": 3100
+        },
+        {
+          "id": "alt_mc_3_3",
+          "texto": {
+            "es": "Manchester City",
+            "en": "Man. City",
+            "pt": "Manchester City"
+          },
+          "votos": 5500
+        }
+      ]
+    },
+    {
+      "id": "q_ctx_g_1",
+      "contenedor_id": "ctx_global",
+      "modelo_contenedor": "Context",
+      "modulo_origen": "Context",
+      "texto_pregunta": {
+        "es": "El VAR ahora revisará los córners",
+        "en": "VAR will now review corner kicks",
+        "pt": "O VAR agora vai revisar os escanteios"
+      },
+      "estado_pregunta": "Live",
+      "tipo_origen": "Manual_CMS",
+      "categoria_contexto": "Global/Mundo",
+      "alternativas": [
+        {
+          "id": "alt_g1_1",
+          "texto": {
+            "es": "Excelente, asegura que el juego sea justo",
+            "en": "Excellent, ensures the game is fair",
+            "pt": "Excelente, garante que o jogo seja justo"
+          },
+          "votos": 450
+        },
+        {
+          "id": "alt_g1_2",
+          "texto": {
+            "es": "Malo, se pierde la dinámica del partido",
+            "en": "Bad, the game dynamics are lost",
+            "pt": "Ruim, perde-se a dinâmica da partida"
+          },
+          "votos": 920
+        }
+      ]
+    },
+    {
+      "id": "q_ctx_es_club_rm",
+      "contenedor_id": "ctx_spain",
+      "modelo_contenedor": "Context",
+      "modulo_origen": "Context",
+      "texto_pregunta": {
+        "es": "¿Debería volver Cristiano Ronaldo al Real Madrid como Embajador?",
+        "en": "Should Cristiano Ronaldo return to Real Madrid as an Ambassador?",
+        "pt": "Cristiano Ronaldo deveria retornar ao Real Madrid como Embaixador?"
+      },
+      "estado_pregunta": "Live",
+      "tipo_origen": "Manual_CMS",
+      "categoria_contexto": "España",
+      "club_restriccion": "real_madrid",
+      "alternativas": [
+        {
+          "id": "alt_es_c1",
+          "texto": {
+            "es": "Sí, de inmediato",
+            "en": "Yes, immediately",
+            "pt": "Sim, imediatamente"
+          },
+          "votos": 1520
+        },
+        {
+          "id": "alt_es_c2",
+          "texto": {
+            "es": "No, el ciclo está cerrado",
+            "en": "No, the cycle is over",
+            "pt": "Não, o ciclo está encerrado"
+          },
+          "votos": 460
+        },
+        {
+          "id": "alt_es_c3",
+          "texto": {
+            "es": "Solo si tiene un rol deportivo",
+            "en": "Only with active sports role",
+            "pt": "Apenas com papel esportivo ativo"
+          },
+          "votos": 310
+        }
+      ]
+    },
+    {
+      "id": "q_aw_wc_1",
+      "contenedor_id": "award_wc",
+      "modelo_contenedor": "Award",
+      "modulo_origen": "Awards",
+      "texto_pregunta": {
+        "es": "¿Qué selección se coronará campeona?",
+        "en": "Which national team will be crowned champion?",
+        "pt": "Qual seleção será coroada campeã?"
+      },
+      "estado_pregunta": "Live",
+      "tipo_origen": "Manual_CMS",
+      "alternativas": [
+        {
+          "id": "alt_aw_wc1_1",
+          "texto": {
+            "es": "[DE] Alemania",
+            "en": "[DE] Germany",
+            "pt": "[DE] Alemanha"
+          },
+          "votos": 450
+        },
+        {
+          "id": "alt_aw_wc1_2",
+          "texto": {
+            "es": "[AR] Argentina",
+            "en": "[AR] Argentina",
+            "pt": "[AR] Argentina"
+          },
+          "votos": 920
+        },
+        {
+          "id": "alt_aw_wc1_3",
+          "texto": {
+            "es": "[BR] Brasil",
+            "en": "[BR] Brazil",
+            "pt": "[BR] Brasil"
+          },
+          "votos": 800
+        },
+        {
+          "id": "alt_aw_wc1_4",
+          "texto": {
+            "es": "[ES] España",
+            "en": "[ES] Spain",
+            "pt": "[ES] Espanha"
+          },
+          "votos": 1150
+        },
+        {
+          "id": "alt_aw_wc1_5",
+          "texto": {
+            "es": "[FR] Francia",
+            "en": "[FR] France",
+            "pt": "[FR] França"
+          },
+          "votos": 1050
+        },
+        {
+          "id": "alt_aw_wc1_6",
+          "texto": {
+            "es": "[ENG] Inglaterra",
+            "en": "[ENG] England",
+            "pt": "[ENG] Inglaterra"
+          },
+          "votos": 730
+        },
+        {
+          "id": "alt_aw_wc1_7",
+          "texto": {
+            "es": "[NL] Países Bajos",
+            "en": "[NL] Netherlands",
+            "pt": "[NL] Países Baixos"
+          },
+          "votos": 310
+        },
+        {
+          "id": "alt_aw_wc1_8",
+          "texto": {
+            "es": "[PT] Portugal",
+            "en": "[PT] Portugal",
+            "pt": "[PT] Portugal"
+          },
+          "votos": 640
+        },
+        {
+          "id": "alt_aw_wc1_9",
+          "texto": {
+            "es": "Otro",
+            "en": "Other",
+            "pt": "Outro"
+          },
+          "votos": 250
+        }
+      ]
+    },
+    {
+      "id": "q_ctx_wc_1",
+      "contenedor_id": "ctx_wc",
+      "modelo_contenedor": "Context",
+      "modulo_origen": "Context",
+      "texto_pregunta": {
+        "es": "El VAR ahora revisará los córners",
+        "en": "VAR will now review corner kicks",
+        "pt": "O VAR agora vai revisar os escanteios"
+      },
+      "estado_pregunta": "Live",
+      "tipo_origen": "Manual_CMS",
+      "alternativas": [
+        {
+          "id": "alt_ctx_wc1_1",
+          "texto": {
+            "es": "Excelente, asegura que el juego sea justo",
+            "en": "Excellent, ensures the game is fair",
+            "pt": "Excelente, garante que o jogo seja justo"
+          },
+          "votos": 450
+        },
+        {
+          "id": "alt_ctx_wc1_2",
+          "texto": {
+            "es": "Malo, se pierde la dinámica del partido",
+            "en": "Bad, the game dynamics are lost",
+            "pt": "Ruim, perde-se a dinâmica da partida"
+          },
+          "votos": 920
+        }
+      ]
+    },
+    {
+      "id": "q_sim_1781151222764",
+      "contenedor_id": "match_1",
+      "modelo_contenedor": "Match",
+      "modulo_origen": "Matchs",
+      "texto_pregunta": {
+        "en": "Player of the match?",
+        "es": "¿Jugador del partido?",
+        "pt": "Melhor jogador da partida?"
+      },
+      "estado_pregunta": "Finished",
+      "tipo_origen": "Automatic_API",
+      "minuto": "80 '",
+      "created_at": 1781151222764,
+      "alternativas": [
+        {
+          "id": "alt_m1_1781151222764",
+          "texto": {
+            "es": "L. Messi",
+            "en": "L. Messi",
+            "pt": "L. Messi"
+          },
+          "votos": 0
+        },
+        {
+          "id": "alt_m2_1781151222764",
+          "texto": {
+            "es": "Vini Jr",
+            "en": "Vini Jr",
+            "pt": "Vini Jr"
+          },
+          "votos": 0
+        },
+        {
+          "id": "alt_m3_1781151222764",
+          "texto": {
+            "es": "K. Mbappé",
+            "en": "K. Mbappé",
+            "pt": "K. Mbappé"
+          },
+          "votos": 1
+        }
+      ]
+    },
+    {
+      "id": "q_sim_1781151225074",
+      "contenedor_id": "match_1",
+      "modelo_contenedor": "Match",
+      "modulo_origen": "Matchs",
+      "texto_pregunta": {
+        "en": "Who leaves to applause today?",
+        "es": "¿Quién se va entre aplausos hoy?",
+        "pt": "Quem sai aplaudido hoje?"
+      },
+      "estado_pregunta": "Finished",
+      "tipo_origen": "Automatic_API",
+      "created_at": 1781151225074,
+      "alternativas": [
+        {
+          "id": "alt_f1_1781151225074",
+          "texto": {
+            "es": "Ninguno",
+            "en": "Neither",
+            "pt": "Nenhum"
+          },
+          "votos": 0
+        },
+        {
+          "id": "alt_f2_1781151225074",
+          "texto": {
+            "es": "Solo el Real Madrid CF",
+            "en": "Only Real Madrid CF",
+            "pt": "Só o Real Madrid CF"
+          },
+          "votos": 1
+        },
+        {
+          "id": "alt_f3_1781151225074",
+          "texto": {
+            "es": "Solo el Manchester City FC",
+            "en": "Only Manchester City FC",
+            "pt": "Só o Manchester City FC"
+          },
+          "votos": 0
+        },
+        {
+          "id": "alt_f4_1781151225074",
+          "texto": {
+            "es": "Ambos",
+            "en": "Both",
+            "pt": "Ambos"
+          },
+          "votos": 0
+        }
+      ]
+    }
+  ],
+  "activeUserId": "user_alex_g"
+}

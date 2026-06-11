@@ -1,0 +1,6 @@
+{
+  "name": "12VOX",
+  "description": "Plataforma deportiva interactiva donde la voz del hincha es protagonista a través de debates en tiempo real, votaciones restringidas por nacionalidad/club y análisis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
