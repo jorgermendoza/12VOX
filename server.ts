@@ -3,8 +3,8 @@ import path from "path";
 import dns from "dns";
 import fs from "fs";
 import { createServer as createViteServer } from "vite";
-import { User, Match, Vote, Award, ContextCard, Question, Alternativa, AdminMetrics } from "./src/types";
-import { clubs } from "./src/data/clubs";
+import { User, Match, Vote, Award, ContextCard, Question, Alternativa, AdminMetrics } from "./types";
+import { clubs } from "./data/clubs.ts";
 
 const PORT = 3000;
 const app = express();
